@@ -17,3 +17,20 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+RDA/*/config/development
+RDA/*/logs/log-*.php
+!*/logs/index.html
+RDA/*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+RDA/user_guide_src/build/*
+RDA/user_guide_src/cilexer/build/*
+RDA/user_guide_src/cilexer/dist/*
+RDA/user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+RDA/application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+RDA//vendor/
